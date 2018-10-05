@@ -1,7 +1,7 @@
 function formulaire() {
-  var nom = document.getElementById("lastname").value;
-  var prenom = document.getElementById("firstname").value;
-  var ville = document.getElementById("city").value;
+  var lastname = document.getElementById("lastname").value;
+  var firstname = document.getElementById("firstname").value;
+  var city = document.getElementById("city").value;
 
-  alert("Nom : " + nom + "\nPrénom : " + prenom + "\nVille : " + ville);
+  alert("Nom : " + lastname + "\n" + "Prénom : " + firstname + "\n" + "Ville : " + city);
 }
